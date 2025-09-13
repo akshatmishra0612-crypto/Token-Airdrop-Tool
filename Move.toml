@@ -1,0 +1,15 @@
+[package]
+name = "Token-Airdrop-Tool"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0xa3c7a633185bee496358585660c16f79cca8351b1aa1675bab9b3102ccc83078"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
